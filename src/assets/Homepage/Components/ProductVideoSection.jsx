@@ -16,10 +16,10 @@ import promo  from "../../Home/Video/playvideofive.mp4";
 
 import Pigmentoo from "../../../assets/Image/videoimgone.avif";
 
-import Pigmento from "../../../assets/Image/playimgtwo.avif";
+import Pigmento from "../../../assets/Image/Playimgtwo.avif";
 
 
-import Pigment from "../../../assets/Image/playimagthree.avif";
+import Pigment from "../../../assets/Image/Playimagthree.avif";
 
 import Pigmen from "../../../assets/Image/Playimagfor.avif";
 
