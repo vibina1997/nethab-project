@@ -1,0 +1,105 @@
+/* Resetting basic padding/margins for list items */
+.custom-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-navbar a {
+  text-decoration: none;
+}
+
+/* NAVBAR WRAPPER */
+.custom-navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0; /* Thin gray line below navbar */
+  padding: 15px 25px;
+  font-family: Arial, sans-serif;
+}
+
+/* THE CONTAINER (Puts items in a straight horizontal line) */
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Puts Logo on Left, Links in Middle, Icons on Right */
+  align-items: center;            /* Perfectly centers them vertically */
+  max-width: 1400px;
+  margin: 0 auto;                 /* Centers the navbar content on wide screens */
+}
+
+/* 1. LOGO STYLING */
+.navbar-logo {
+  display: flex;
+  flex-direction: column;         /* Stacks main logo over subtext */
+  align-items: center;
+  color: #000000;
+}
+
+.logo-main {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.logo-sub {
+  font-size: 9px;
+  color: #777777;
+  letter-spacing: 2px;
+  margin-top: -2px;
+}
+
+/* 2. NAVIGATION LINKS */
+.navbar-links {
+  display: flex;
+  gap: 20px;                      /* Spacing between each link text */
+}
+
+.navbar-links li {
+  font-size: 14px;
+  color: #444444;
+  cursor: pointer;
+  white-space: nowrap;            /* Stops text from wrapping to a second line */
+  transition: color 0.2s ease;
+}
+
+/* Hover effect for text items */
+.navbar-links li:hover {
+  color: #000000;
+  font-weight: 500;
+}
+
+/* 3. RIGHT ICONS */
+.navbar-icons {
+  display: flex;
+  gap: 22px;                      /* Spacing between individual icons */
+  color: #444444;
+}
+
+.icon-item {
+  font-size: 18px;                /* Makes the icon graphics look well proportioned */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon-item:hover {
+  color: #000000;
+  transform: scale(1.05);         /* Slight pop effect on hover */
+}
+
+/* MOBILE TOGGLE BUTTON (Hidden on standard desktop views) */
+.mobile-toggle-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN (If screen size gets smaller than a standard desktop) */
+@media (max-width: 1024px) {
+  .navbar-links {
+    display: none;                /* Hides the long text items on tablets/phones */
+  }
+  .mobile-toggle-btn {
+    display: block;               /* Shows mobile menu bars instead */
+  }
+}

@@ -1,0 +1,38 @@
+.collections-container { padding: 40px 20px; max-width: 1200px; margin: 0 auto; }
+.title { text-align: center; margin-bottom: 30px; font-size: 28px; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 25px;
+}
+
+.collection-card {
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.collection-card:hover { transform: translateY(-5px); }
+.collection-card img { width: 100%; border-radius: 12px; margin-bottom: 10px; }
+.collection-card h3 { font-size: 16px; margin: 5px 0; }
+.collection-card p { font-size: 13px; color: #666; }
+
+
+.last-card {
+  grid-column: 2 / 4; 
+  max-width: 280px;   
+  margin: 0 auto;
+}
+
+
+@media (max-width: 1024px) {
+  .grid-container { grid-template-columns: repeat(2, 1fr); }
+  .last-card { grid-column: auto; max-width: 100%; }
+}
+
+@media (max-width: 600px) {
+  .grid-container { grid-template-columns: 1fr; }
+}
