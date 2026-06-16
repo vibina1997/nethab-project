@@ -9,7 +9,7 @@ import 'swiper/css/effect-fade';
 import "../../Home/HighlightSection.css";
 
 import flashImg from "../../../assets/Image/hairoo.avif";
-import websiteImg from "../../../assets/Image/websitoo.avif";
+import websiteImg from "../../../assets/Image/Websitoo.avif";
 
 const BannerSlider = () => {
   const bannerLinks = [

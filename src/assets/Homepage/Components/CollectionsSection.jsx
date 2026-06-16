@@ -5,7 +5,7 @@ import "../../Home/CollectionsSection.css";
 // importing images for collections
 
 import flashImg from "../../../assets/Image/collectionone.avif";
-import flashIm from "../../../assets/Image/collectiontwo.avif";
+import flashIm from "../../../assets/Image/Collectiontwo.avif";
 import flashI from "../../../assets/Image/collectionthree.avif";
 import flash from "../../../assets/Image/collectionfor.avif";
 import flas from "../../../assets/Image/collectionfive.avif";
