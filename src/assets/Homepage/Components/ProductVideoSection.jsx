@@ -13,17 +13,16 @@ import promo  from "../../Home/Video/playvideofive.mp4";
 
 // images for product section
 
+import Pigmentoo from "../../../assets/Image/playimgone.avif";
 
-import Pigmentoo from "../../../assets/Image/videoimgone.avif";
-
-import Pigmento from "../../../assets/Image/Playimgtwo.avif";
+import Pigmento from "../../../assets/Image/playimgtwo.avif";
 
 
-import Pigment from "../../../assets/Image/Playimagthree.avif";
+import Pigment from "../../../assets/Image/playimagthree.avif";
 
-import Pigmen from "../../../assets/Image/Playimagfor.avif";
+import Pigmen from "../../../assets/Image/playimagfor.avif";
 
-import Pigme from "../../../assets/Image/Playimgfive.avif";
+import Pigme from "../../../assets/Image/playimgfive.avif";
 
 const products = [
   { id: 1,
