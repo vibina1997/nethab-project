@@ -10,6 +10,11 @@ import NeedsSelection from "./assets/Homepage/Components/NeedsSelection";
 import SkinAnalysisBanner from "./assets/Homepage/Components/SkinAnalysisBanner";
 import VideoBanner from "./assets/Homepage/Components/VideoBanner";
 import ProductVideoSection from "./assets/Homepage/Components/ProductVideoSection";
+import SliderSection from "./assets/Homepage/Components/SliderSection";
+import BestSellers from "./assets/Homepage/Components/BestSellers";
+import SummerCare from "./assets/Homepage/Components/SummerCare";
+import Ingredients from "./assets/Homepage/Components/Ingredients";
+
 function App() {
   return (
     <div>
@@ -24,6 +29,10 @@ function App() {
       <SkinAnalysisBanner />
       <VideoBanner />
       <ProductVideoSection />
+      <SliderSection />
+      <BestSellers /> 
+      <SummerCare />
+   <Ingredients />
     </div>
   );
 }

@@ -1,0 +1,54 @@
+.summer-care-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 കോളങ്ങൾ */
+  gap: 25px; /* കാർഡുകൾ തമ്മിലുള്ള അകലം */
+}
+
+.product-card {
+  text-align: center;
+  border-radius: 12px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.product-card p {
+  font-size: 13px;
+  color: #777;
+}
+
+/* റെസ്പോൺസീവ് ഡിസൈൻ */
+@media (max-width: 1024px) {
+  .grid-container { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .grid-container { grid-template-columns: 1fr; }
+}
